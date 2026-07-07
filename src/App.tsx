@@ -1013,7 +1013,7 @@ function ConsentPanel({
       </div>
       <div className="trust-line">
         <Lock size={16} aria-hidden="true" />
-        <span>Raw imports stay in this browser session.</span>
+        <span>Raw imports analyze locally; API sync is transient and no-store.</span>
       </div>
       <label className="toggle-row locked">
         <span>
@@ -1644,15 +1644,15 @@ function App() {
                 <div className="protocol-grid">
                   <div>
                     <strong>Raw data</strong>
-                    <span>Never included in contribution export.</span>
+                    <span>Not stored or included in contribution export.</span>
                   </div>
                   <div>
                     <strong>Consent gate</strong>
                     <span>Aggregate and commercial reuse are separate switches.</span>
                   </div>
                   <div>
-                    <strong>Sale-ready path</strong>
-                    <span>Value comes from trusted cohorts, not surprise resale.</span>
+                    <strong>Clinical boundary</strong>
+                    <span>Insights are educational and not medical advice.</span>
                   </div>
                 </div>
               </section>
